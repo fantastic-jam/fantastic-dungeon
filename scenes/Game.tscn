@@ -33,66 +33,6 @@ font_data = ExtResource( 15 )
 [sub_resource type="RectangleShape2D" id=43]
 extents = Vector2( 16, 16 )
 
-[sub_resource type="AtlasTexture" id=41]
-atlas = ExtResource( 5 )
-region = Rect2( 192, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=40]
-atlas = ExtResource( 5 )
-region = Rect2( 160, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=39]
-atlas = ExtResource( 5 )
-region = Rect2( 128, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=38]
-atlas = ExtResource( 5 )
-region = Rect2( 96, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=37]
-atlas = ExtResource( 5 )
-region = Rect2( 64, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=36]
-atlas = ExtResource( 5 )
-region = Rect2( 32, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=35]
-atlas = ExtResource( 5 )
-region = Rect2( 0, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=34]
-atlas = ExtResource( 5 )
-region = Rect2( 224, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=33]
-atlas = ExtResource( 5 )
-region = Rect2( 192, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=32]
-atlas = ExtResource( 5 )
-region = Rect2( 160, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=31]
-atlas = ExtResource( 5 )
-region = Rect2( 128, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=30]
-atlas = ExtResource( 5 )
-region = Rect2( 96, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=29]
-atlas = ExtResource( 5 )
-region = Rect2( 64, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=28]
-atlas = ExtResource( 5 )
-region = Rect2( 32, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=27]
-atlas = ExtResource( 5 )
-region = Rect2( 0, 0, 32, 32 )
-
 [sub_resource type="AtlasTexture" id=6]
 atlas = ExtResource( 5 )
 region = Rect2( 0, 0, 32, 32 )
@@ -153,20 +93,80 @@ region = Rect2( 160, 32, 32, 32 )
 atlas = ExtResource( 5 )
 region = Rect2( 192, 32, 32, 32 )
 
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 5 )
+region = Rect2( 192, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 5 )
+region = Rect2( 160, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 5 )
+region = Rect2( 128, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 5 )
+region = Rect2( 96, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 5 )
+region = Rect2( 64, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=36]
+atlas = ExtResource( 5 )
+region = Rect2( 32, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=35]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=34]
+atlas = ExtResource( 5 )
+region = Rect2( 224, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=33]
+atlas = ExtResource( 5 )
+region = Rect2( 192, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 5 )
+region = Rect2( 160, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 5 )
+region = Rect2( 128, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 5 )
+region = Rect2( 96, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 5 )
+region = Rect2( 64, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 5 )
+region = Rect2( 32, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 32, 32 )
+
 [sub_resource type="AtlasTexture" id=5]
 atlas = ExtResource( 5 )
 region = Rect2( 0, 0, 32, 32 )
 
 [sub_resource type="SpriteFrames" id=44]
 animations = [ {
-"frames": [ SubResource( 41 ), SubResource( 40 ), SubResource( 39 ), SubResource( 38 ), SubResource( 37 ), SubResource( 36 ), SubResource( 35 ), SubResource( 34 ), SubResource( 33 ), SubResource( 32 ), SubResource( 31 ), SubResource( 30 ), SubResource( 29 ), SubResource( 28 ), SubResource( 27 ) ],
-"loop": false,
-"name": "locking",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
 "loop": false,
 "name": "unlocking",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 41 ), SubResource( 40 ), SubResource( 39 ), SubResource( 38 ), SubResource( 37 ), SubResource( 36 ), SubResource( 35 ), SubResource( 34 ), SubResource( 33 ), SubResource( 32 ), SubResource( 31 ), SubResource( 30 ), SubResource( 29 ), SubResource( 28 ), SubResource( 27 ) ],
+"loop": false,
+"name": "locking",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 5 ) ],
@@ -293,10 +293,10 @@ margin_top = 32.0
 margin_right = 104.0
 margin_bottom = 56.0
 rect_pivot_offset = Vector2( -112, -40 )
-focus_mode = 0
+focus_neighbour_top = NodePath("../HardcoreButton")
+focus_neighbour_bottom = NodePath("../NormalButton")
 custom_fonts/font = ExtResource( 14 )
 shortcut_in_tooltip = false
-enabled_focus_mode = 0
 text = "Easy"
 __meta__ = {
 "_edit_lock_": true,
@@ -308,10 +308,10 @@ margin_left = 16.0
 margin_top = 64.0
 margin_right = 104.0
 margin_bottom = 88.0
-focus_mode = 0
+focus_neighbour_top = NodePath("../EasyButton")
+focus_neighbour_bottom = NodePath("../HardcoreButton")
 custom_fonts/font = ExtResource( 14 )
 shortcut_in_tooltip = false
-enabled_focus_mode = 0
 text = "Normal"
 __meta__ = {
 "_edit_lock_": true
@@ -322,10 +322,10 @@ margin_left = 16.0
 margin_top = 96.0
 margin_right = 104.0
 margin_bottom = 120.0
-focus_mode = 0
+focus_neighbour_top = NodePath("../NormalButton")
+focus_neighbour_bottom = NodePath("../EasyButton")
 custom_fonts/font = ExtResource( 14 )
 shortcut_in_tooltip = false
-enabled_focus_mode = 0
 text = "Hardcore"
 __meta__ = {
 "_edit_lock_": true,
@@ -391,10 +391,8 @@ margin_top = 8.0
 margin_right = 104.0
 margin_bottom = 32.0
 rect_pivot_offset = Vector2( -112, -40 )
-focus_mode = 0
 custom_fonts/font = ExtResource( 14 )
 shortcut_in_tooltip = false
-enabled_focus_mode = 0
 text = "Try again"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -459,10 +457,8 @@ margin_top = 8.0
 margin_right = 104.0
 margin_bottom = 32.0
 rect_pivot_offset = Vector2( -112, -40 )
-focus_mode = 0
 custom_fonts/font = ExtResource( 14 )
 shortcut_in_tooltip = false
-enabled_focus_mode = 0
 text = "Restart"
 __meta__ = {
 "_edit_use_anchors_": false

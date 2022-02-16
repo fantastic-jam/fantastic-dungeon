@@ -37,9 +37,9 @@ Made for the game jam [fantastic-jam-2](https://itch.io/jam/fantastic-jam-002).
 
 ## Controls
 
-* **move**: WASD or arrows
-* **aim**: mouse
-* **attack**: left mouse button
+* **move**: WASD or arrows or controller left stick
+* **aim**: mouse or controller right stick
+* **attack**: left mouse button or controller L2/R2
 
 ## Tools used
 
