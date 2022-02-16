@@ -187,7 +187,7 @@ _projectileSpeed = 200.0
 Speed = 200.0
 _health = 5
 _attackDamage = 1
-_attackCooldown = 250
+_attackCooldown = 200
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 15 )

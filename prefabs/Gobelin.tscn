@@ -201,7 +201,7 @@ _projectileColor = Color( 1, 1, 0, 1 )
 _projectileScale = Vector2( 0.8, 0.8 )
 _projectileSpeed = 150.0
 Speed = 75.0
-_health = 30
+_health = 32
 _attackDamage = 1
 _attackCooldown = 800
 _attackOnTargetCollision = true
@@ -217,7 +217,7 @@ _neighbourDistance = 60.0
 material = SubResource( 18 )
 frames = SubResource( 13 )
 animation = "idle"
-frame = 5
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

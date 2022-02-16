@@ -72,7 +72,7 @@ public class Difficulty
         EnemyAttackCooldownModifier = enemyAttackCooldownModifier;
     }
 
-    public static Difficulty Easy = new Difficulty(7, 15, 1.2f);
-    public static Difficulty Normal = new Difficulty(3, 7, 0.75f);
-    public static Difficulty Hardcore = new Difficulty(1, 4, 0.45f);
+    public static Difficulty Easy = new Difficulty(7, 15, 2f);
+    public static Difficulty Normal = new Difficulty(3, 7, 1f);
+    public static Difficulty Hardcore = new Difficulty(1, 5, 0.75f);
 }
